@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for a marketing agency" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="images/LOGO.svg" />
+    <title>ONWAY</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <img src="images/LOGO.svg" alt="ONWAY" class="logo" />
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu">
+            <span class="hamb-line"></span>
+        </label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#aboutUs">ABOUT US</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contactus">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content-->
+    <main id="home">
+        <div class="main-left">
+            <h2>Welcome to “Onway”</h2>
+            <h1>Together to <span>grow</span> ideas</h1>
+            <p>Time to make your business real, we give you creatives solutions that help you to shine.</p>
+            <a href="#contactus" class="main-btn">Contact Us</a>
+        </div>
+        <div class="main-right">
+            <img src="images/Mobile Marketing-pana.png" alt="marketing" />
+        </div>
+    </main>
+    <!-- Services section-->
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="image">
+                    <img src="images/social media management.png" alt="" />
+                </div>
+                <div class="information">
+                    <h5>Social media management</h5>
+                    <p>We offer full-service social media management services. So, we transform your social media
+                        presence
+                        with high-quality content, daily activity, monitoring-engagement and increased followers.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/seo.png" alt="" />
+                </div>
+                <div class="information">
+                    <h5>Search engine optimization</h5>
+                    <p>We provide you with online marketing solutions that will make your business show up on higher
+                        search engine rankings.
+                        Our Digital Marketing Agency believes in developing customer-focused advanced SEO strategies
+                        that last for long.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/content marketing.png" alt="" />
+                </div>
+                <div class="information">
+                    <h5>Content<br> marketing</h5>
+                    <p>We’re a powerhouse of marketing professionals who are adept at their craft and experienced in
+                        creating high quality
+                        content for clients around the globe to determine which assets you need and the best strategy to
+                        distribute them.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/web dev.png" alt="" />
+                </div>
+                <div class="information">
+                    <h5>Web design & development</h5>
+                    <p>We are known for delivering unmatched custom web app development solutions. We offer custom
+                        website development
+                        services, and custom web application development services. Our services are built around your
+                        ideas and business needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us section-->
+    <section class="about" id="aboutUs">
+        <h2 class="title">About us</h2>
+        <div class="icon1">
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <p class="first-par">Onway Agency started with a joke from our friend and now we are a huge digital marketing
+            agency, we have
+            changed the
+            joke into business and we have the power to change your idea into your dream.
+        </p>
+        <p class="second-par">We help businesses with all of their digital marketing needs. From understanding goals to
+            getting it right.
+        </p>
+        <div class="icon2">
+            <i class="fa-solid fa-quote-left"></i>
+        </div>
+        <div class="btn">
+            <a href="#contactus" class="about-btn">Let's do it</a>
+        </div>
+    </section>
+    <!-- Team section-->
+    <section class="people" id="team">
+        <h2 class="title">Our Team</h2>
+        <div class="parts">
+            <div class="part">
+                <img src="images/person1.jpg" alt="">
+                <div class="infos">
+                    <h5>Chris Ramsey</h5>
+                    <p>SEO manager</p>
+                </div>
+            </div>
+            <div class="part">
+                <img src="images/person2.jpg" alt="">
+                <div class="infos">
+                    <h5>Jim Patrick</h5>
+                    <p>Web developer</p>
+                </div>
+            </div>
+            <div class="part">
+                <img src="images/person3.jpg" alt="">
+                <div class="infos">
+                    <h5>Landon Watson</h5>
+                    <p>Content manager</p>
+                </div>
+            </div>
+            <div class="part">
+                <img src="images/person4.jpeg" alt="">
+                <div class="infos">
+                    <h5>Patrick Mitchell</h5>
+                    <p>Graphic designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section class="contact" id="contactus">
+        <h2 class="title">Contact Us</h2>
+        <div class="contenu">
+            <div class="illustration">
+                <img src="images/Mobile Marketing-bro.png" alt="">
+            </div>
+            <div>
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Write your name">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Write your email">
+                    <label for="message">Message</label>
+                    <textarea cols="50" rows="3"></textarea>
+                    <button>Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer-->
+    <footer class="footer">
+        <p class="footer-title">Copyright &copy; designed by <span>SOUKAINA BENDAOUD</span> </p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
